@@ -2,16 +2,24 @@ body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
 	font-size: 120%;
+  line-height: 1.5;
 }
 
 h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+main div {
+  width: 720px;
+  margin: auto;
+}
+
 main h1 {
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
+  padding: 25px;
+  border-bottom: 10px solid black;
 }
 
 p {
@@ -20,6 +28,14 @@ p {
 
 blockquote {
 	background-color: #D9E5E3;
+  margin: 0;
+  border: 10px solid #C2CCCA;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+blockquote, aside, footer {
+  padding: 20px;
 }
 
 aside {
@@ -34,6 +50,10 @@ footer {
 
 nav a {
 	color: #F2FFFC;
+}
+
+nav li{
+  text-align: center;
 }
 
 main a {
