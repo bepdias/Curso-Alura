@@ -9,6 +9,10 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h1 {
+	text-transform: uppercase;
+}
+
 .titulo-principal {
 	text-align: center;
 	background-color: #851944;
@@ -49,6 +53,10 @@ main a {
 .navegacao-site a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
+}
+
+nav a {
+    text-transform: lowercase;
 }
 
 .citacao-bio, .navegacao-site, .rodape-pagina {
@@ -95,4 +103,23 @@ em {
 	font-size: 24px;
 	text-align: center;
 	background-color: #E6E7E8;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(../images/github.png);
+}
+
+.twitter {
+     background-image: url(../images/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.png);
 }
