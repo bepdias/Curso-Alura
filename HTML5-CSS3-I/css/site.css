@@ -9,10 +9,6 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-h1 {
-	text-transform: uppercase;
-}
-
 .titulo-principal {
 	text-align: center;
 	background-color: #851944;
@@ -20,6 +16,7 @@ h1 {
 	padding: 25px;
 	border-bottom: 10px solid black;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 p {
@@ -44,6 +41,7 @@ p {
 .rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
+	clear: both;
 }
 
 main a {
@@ -53,10 +51,6 @@ main a {
 .navegacao-site a {
 	color: inherit;
 	font-family: "Open Sans Condensed", sans-serif;
-}
-
-nav a {
-    text-transform: lowercase;
 }
 
 .citacao-bio, .navegacao-site, .rodape-pagina {
@@ -84,6 +78,7 @@ em {
 
 .subtitulo-texto {
 	font-size: 30px;
+	clear: both;
 }
 
 .icones-redes-sociais li {
@@ -105,21 +100,51 @@ em {
 	background-color: #E6E7E8;
 }
 
+nav a {
+	text-transform: lowercase;
+}
+
 .icones-redes-sociais a {
-    width: 40px;
-    height: 40px;
-    display: block;
-    text-indent: -99999px;
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
 }
 
 .github {
-    background-image: url(../images/github.png);
+	background-image: url(github.png);
 }
 
 .twitter {
-     background-image: url(../images/twitter.png);
+	background-image: url(twitter.png);
 }
 
 .linkedin {
-    background-image: url(../images/linkedin.png);
+	background-image: url(linkedin.png);
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+cite {
+	font-style: italic;
+	float: right;
 }
